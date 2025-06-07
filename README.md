@@ -88,4 +88,4 @@ Drop an issue or comment — or hit me up on Reddit/Quora when I post it!
 
 ---
 
-## 🔗 [Link to this repository]
+## 🔗 https://github.com/noobhacker02/Audio-Cleaner-for-After-Effects/tree/main
