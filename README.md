@@ -1,5 +1,5 @@
 # 🎧 Audio Cleaner for Adobe After Effects  
-*An open-source silence remover script panel for editors, built with ❤️ by EAT (Talha)*
+*An open-source silence remover script panel for editors, built with  by EAT (Talha)*
 
 ---
 
@@ -50,7 +50,7 @@ No direct code was copied. This version is built for public and educational use 
 
 ---
 
-##🤡 Why I Made This
+## 🤡 Why I Made This
 I saw a bunch of cool silence-remover tools out there and thought:
 
 "Hey, I can totally make one with a funky UI and fewer bugs (hopefully)" 😅
