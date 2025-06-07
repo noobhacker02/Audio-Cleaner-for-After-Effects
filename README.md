@@ -1,76 +1,67 @@
-# Audio-Cleaner-for-After-Effects
-🎧 Audio Cleaner for Adobe After Effects A customizable silence remover script panel made for editors, voice-over artists, and anyone tired of trimming quiet parts manually.
+# 🎧 Audio Cleaner for Adobe After Effects  
+*An open-source silence remover script panel for editors, built with ❤️ by EAT (Talha)*
 
-🧠 What Is This?
-Audio Cleaner is a dockable ScriptUI panel for Adobe After Effects that scans your audio layer and automatically trims your video/still layer based on volume. Perfect for cleaning interviews, voiceovers, tutorials, and more.
+---
 
-This tool was built by experimenting with existing ideas and workflows — and adding my own twist with a user-friendly UI and flexible controls. The goal was to make something simple, fast, and useful.
+## 🧠 What Is This?
 
-✨ Features
-🔇 Silence Detection: Identifies quiet parts of your audio layer
+**Audio Cleaner** is a dockable panel for Adobe After Effects that automatically detects silent parts in your audio and trims or isolates them from your video layer. Ideal for interviews, voiceovers, tutorials, or podcast edits — basically, anywhere you're tired of cutting silence manually.
 
-🎚️ Adjustable Threshold: Decide what’s “too quiet”
+This was inspired by tools like **Void Silence Remover** from [SolidState School](https://solidstate.school/void-silence-remover/). I built my own from scratch with a simple UI and customizable options.
 
-🧈 Audio Padding: Add buffer frames around cuts for smoother edits
+---
 
-🔄 Flexible Modes:
+## ✨ Features
 
-Remove silence (ripple-delete)
+- 🔇 **Silence Detection**: Automatically detects quiet parts of audio
+- 🎚️ **Adjustable Threshold**: Customize how quiet is considered “silent”
+- 🧈 **Audio Padding**: Add buffer frames to avoid cutting off speech
+- 🛠️ **Multiple Modes**:
+  - Remove silence and ripple-delete timeline
+  - Isolate only the silent sections
+  - Keep gaps while trimming, to preserve timing
+- 🖼️ **Clean Dockable UI**: Seamlessly fits into your AE workspace
 
-Keep only silence
+---
 
-Leave gaps but still trim
+## 🔧 How to Use
 
-🖼️ Dockable Panel UI: Clean layout, easy to use inside AE
+1. **Download the script file** (`AudioCleaner_V1_by_EAT.jsx`)
+2. In **After Effects**, go to:  
+   `File > Scripts > Run Script File...`
+3. Select the `.jsx` file
+4. A panel will appear – dock it if you want
+5. Select the **video/still layer** you want to trim  
+6. Make sure an **audio layer** exists in your comp
+7. Adjust the settings:
+   - Silence threshold
+   - Frame padding
+   - Mode (invert, ripple-delete, etc.)
+8. Click **"Start Cleaning"** 🧽
 
-🛠️ How to Use
-Download the .jsx file from this repo
+---
 
-Open Adobe After Effects
+## 📢 Disclaimer & Credit
 
-Go to File > Scripts > Run Script File...
+This tool was built by me (Talha) by referencing the idea behind **Void Silence Remover**, but all the code is original and customized for personal and community use. No code was copied from their repository.
 
-Select AudioCleaner_V1_by_EAT.jsx
+If you're from SolidState and you'd like me to credit differently or modify the script in any way, just reach out! 🙏
 
-Dock the panel if you like
+---
 
-Select the video/still layer you want to cut
+## 🗣️ Feedback? Suggestions?
 
-Ensure an audio layer exists in the comp
+This is still V1 — more features like:
+- 📝 Documentation
+- 💡 Preview before cutting
+- 🎛️ Improved UI
+are coming soon.
 
-Adjust settings like:
+Feel free to fork, use, and suggest what you want added!
 
-Silence threshold
+👉 Drop issues or pull requests  
+👉 Message me on Reddit/Quora when I post it 😄
 
-Padding
+---
 
-Ripple delete or not
-
-Invert mode (keep silence)
-
-Hit "Start Cleaning" — and let it work 🎬
-
-🧪 Status & Plans
-This is Version 1 — and I’m still working on it.
-Coming soon:
-
-📘 Full documentation
-
-🔍 Preview before cut
-
-🌐 More UI polish and flexibility
-
-🙌 Use It Freely
-The script is free and open to use.
-You're welcome to:
-
-Use it in your projects
-
-Suggest features
-
-Report bugs
-
-Fork and improve it 🔧
-
-Let me know what you'd like to see added! I’m posting this on Reddit and Quora too, so feel free to reply there or open an issue.
-
+## 🔗 [Link to this repository]
