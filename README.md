@@ -5,62 +5,64 @@
 
 ## 🧠 What Is This?
 
-**Audio Cleaner** is a dockable panel for Adobe After Effects that automatically detects silent parts in your audio and trims or isolates them from your video layer. Ideal for interviews, voiceovers, tutorials, or podcast edits — basically, anywhere you're tired of cutting silence manually.
+**Audio Cleaner** is a dockable panel for Adobe After Effects that automatically detects silent parts in your audio and trims or isolates them from your video/still layers. It’s perfect for interviews, voiceovers, tutorials — or anywhere you're tired of editing out long awkward silences manually 😅
 
-This was inspired by tools like **Void Silence Remover** from [SolidState School](https://solidstate.school/void-silence-remover/). I built my own from scratch with a simple UI and customizable options.
+I built this by learning from existing ideas and tools, then creating my own version with a simpler, customizable interface and clean integration into AE. All code is written and structured independently.
 
 ---
 
 ## ✨ Features
 
-- 🔇 **Silence Detection**: Automatically detects quiet parts of audio
-- 🎚️ **Adjustable Threshold**: Customize how quiet is considered “silent”
-- 🧈 **Audio Padding**: Add buffer frames to avoid cutting off speech
-- 🛠️ **Multiple Modes**:
-  - Remove silence and ripple-delete timeline
-  - Isolate only the silent sections
-  - Keep gaps while trimming, to preserve timing
-- 🖼️ **Clean Dockable UI**: Seamlessly fits into your AE workspace
+- 🔇 **Silence Detection**: Automatically finds low-volume audio zones
+- 🎚️ **Adjustable Threshold**: Customize the dB level that counts as “silence”
+- 🧈 **Audio Padding**: Add frame buffers to avoid abrupt cuts
+- 🔄 **Multiple Modes**:
+  - Remove silence with ripple delete
+  - Isolate silence instead of sound
+  - Keep gaps (preserve timing, no ripple)
+- 🖼️ **Clean Dockable UI**: Works like any AE panel
 
 ---
 
 ## 🔧 How to Use
 
-1. **Download the script file** (`AudioCleaner_V1_by_EAT.jsx`)
-2. In **After Effects**, go to:  
+1. **Download the script** (`AudioCleaner_V1_by_EAT.jsx`)
+2. Open **After Effects**
+3. Go to:  
    `File > Scripts > Run Script File...`
-3. Select the `.jsx` file
-4. A panel will appear – dock it if you want
-5. Select the **video/still layer** you want to trim  
-6. Make sure an **audio layer** exists in your comp
-7. Adjust the settings:
+4. Select the `.jsx` file
+5. The **Audio Cleaner panel** will open — dock it anywhere
+6. Select the **video/still layer** you want to trim
+7. Make sure an **audio layer** exists in your composition
+8. Set your preferences:
    - Silence threshold
    - Frame padding
-   - Mode (invert, ripple-delete, etc.)
-8. Click **"Start Cleaning"** 🧽
+   - Modes (invert, ripple-delete, etc.)
+9. Click **"Start Cleaning"** and let it do its thing 🎬
 
 ---
 
-## 📢 Disclaimer & Credit
+## 📢 Notes
 
-This tool was built by me (Talha) by referencing the idea behind **Void Silence Remover**, but all the code is original and customized for personal and community use. No code was copied from their repository.
-
-If you're from SolidState and you'd like me to credit differently or modify the script in any way, just reach out! 🙏
+This is a repurposed tool built from ideas and practices I studied online, but the code, UI, and logic are my own implementation.  
+No direct code was copied. This version is built for public and educational use only.
 
 ---
 
 ## 🗣️ Feedback? Suggestions?
 
-This is still V1 — more features like:
-- 📝 Documentation
-- 💡 Preview before cutting
-- 🎛️ Improved UI
-are coming soon.
+This is just the first version. I’m planning:
+- 📝 Documentation & quick-start guide
+- 👁️ Preview-before-cutting feature
+- 🖌️ UI & experience improvements
 
-Feel free to fork, use, and suggest what you want added!
+Feel free to:
+- ⭐ Star it
+- 🛠️ Fork it
+- 🐞 Report bugs
+- 💡 Suggest features
 
-👉 Drop issues or pull requests  
-👉 Message me on Reddit/Quora when I post it 😄
+Drop an issue or comment — or hit me up on Reddit/Quora when I post it!
 
 ---
 
