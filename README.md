@@ -88,4 +88,4 @@ Drop an issue or comment — or hit me up on Reddit/Quora when I post it!
 
 ---
 
-## 🔗 https://github.com/noobhacker02/Audio-Cleaner-for-After-Effects/tree/main
+## 🔗 https://github.com/noobhacker02/Audio-Cleaner-for-After-Effects/blob/main/AudioCleaner_V1_by_EAT.jsx
